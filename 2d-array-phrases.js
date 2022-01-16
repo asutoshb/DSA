@@ -55,7 +55,7 @@ function solve(arr, n, m) {
       }
     }
   }
-  console.log(c);
+  return c;
 }
 
 function runProgram(input) {
@@ -66,7 +66,8 @@ function runProgram(input) {
     let data = newInput[i].trim().split("");
     arr.push(data);
   }
-  solve(arr, n, m);
+  let ans = solve(arr, n, m);
+  console.log(ans);
 }
 
 if (process.env.USERNAME === "asutosh") {
