@@ -16,7 +16,7 @@ var longestNiceSubarray = function(nums) {
 };
 
 // T=O(n)
-var longestNiceSubarray = function(nums) {}
+var longestNiceSubarray = function(nums) {
     let n = nums.length;
     let i = 0;
     let j = 0;
